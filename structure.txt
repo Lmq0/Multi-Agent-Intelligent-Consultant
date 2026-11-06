@@ -1,0 +1,20 @@
+FinanceAgent/
+├── .env                  # 存放 API Keys
+├── requirements.txt      # 依赖清单
+├── main.py               # 启动入口
+├── core/                 # 核心配置与基础组件
+│   ├── __init__.py
+│   ├── config.py         # 环境变量与模型初始化
+│   └── state.py          # 定义全局状态 (State)
+├── skills/               # 工具库 (对应工业界的 MCP/Skills)
+│   ├── __init__.py
+│   ├── web_search.py     # 联网搜索工具
+│   └── code_executor.py  # Python 代码执行工具
+├── agents/               # 各个 Agent 的大脑逻辑
+│   ├── __init__.py
+│   ├── researcher.py     # 情报专员
+│   ├── extractor.py      # 数据专员
+│   └── analyst.py        # 首席分析师
+└── workflow/             # 工作流编排
+    ├── __init__.py
+    └── graph.py          # 构建 LangGraph 流程图

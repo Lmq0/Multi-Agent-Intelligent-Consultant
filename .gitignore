@@ -1,0 +1,6 @@
+.env
+logs/
+chroma_db/
+all-MiniLM-L6-v2/
+__pycache__/
+*.pyc
