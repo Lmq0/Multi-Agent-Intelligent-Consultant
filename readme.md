@@ -47,6 +47,9 @@ graph TD
 
 
 ## 📁 目录结构 (Project Structure)
+## 📁 目录结构 (Project Structure)
+
+```text
 ├── .env                  # API Keys 配置 (不提交至 Git)
 ├── app_ui.py             # Streamlit Web 前端启动入口
 ├── main.py               # 终端测试入口
@@ -65,6 +68,7 @@ graph TD
 │   └── chatbot.py        # 兜底闲聊机器人
 └── workflow/             # 编排模块
     └── graph.py          # LangGraph 状态图拓扑构建
+```
 
 ## 🚀 快速开始 (Quick Start)
 
