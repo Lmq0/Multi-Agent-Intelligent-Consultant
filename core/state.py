@@ -1,4 +1,4 @@
-from typing import TypedDict
+from typing import TypedDict,Any
 
 class AgentState(TypedDict):
     topic: str
@@ -8,3 +8,4 @@ class AgentState(TypedDict):
     next_step: str
     # 新增：调度员的决策 ('researcher', 'extractor', 'both', 'analyst')
     direct_reply: str  # 新增：如果是闲聊，直接把回答存这里
+    retriever: Any

@@ -1,5 +1,5 @@
 from .state import AgentState
-from .config import llm, retriever, embeddings
+from .config import llm, embeddings
 from .log import logger
 
-__all__ = ["AgentState", "llm", "retriever", "embeddings","logger"]
+__all__ = ["AgentState", "llm", "embeddings","logger"]
